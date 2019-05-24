@@ -9,13 +9,13 @@ public class test1 {
 	//public void tes1(){
 	public static void main(String[] args) {
 
-
+			//test
 			System.setProperty("webdriver.gecko.driver","d:\\geckodriver.exe");
 			WebDriver	driver=new FirefoxDriver();
 			driver.get("https://www.baidu.com/");;
 			driver.manage().window().maximize();
 			loginpage t=new loginpage(driver);
 			t.kw("test");
-		driver.close();
+			driver.close();
 	}
 }
