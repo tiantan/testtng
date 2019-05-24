@@ -17,7 +17,6 @@
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
-    <orderEntry type="library" name="org.testng.TESTNG_CONTAINER" level="application" />
     <orderEntry type="module-library">
       <library name="log4j-1.2.11.jar">
         <CLASSES>
@@ -28,18 +27,9 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="selenium-java-2.44.0.jar">
+      <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/selenium-java-2.44.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="selenium-server-standalone-2.44.0.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/selenium-server-standalone-2.44.0.jar!/" />
+          <root url="jar://D:/ceshi/selenium-server-standalone-3.8.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

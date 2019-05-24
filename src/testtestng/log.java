@@ -1,9 +1,6 @@
 package testtestng;
 
-import java.io.File;
-
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
