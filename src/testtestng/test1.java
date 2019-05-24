@@ -3,7 +3,7 @@ package testtestng;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
-
+//测试类
 public class test1 {
 	@Test
 	public void tes1(){
