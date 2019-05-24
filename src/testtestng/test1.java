@@ -14,6 +14,7 @@ public class test1 {
 			driver.manage().window().maximize();
 			loginpage t=new loginpage(driver);
 			t.kw("test");
+		//test
 			driver.close();
 	}
 }
