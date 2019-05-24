@@ -26,14 +26,10 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://D:/ceshi/selenium-server-standalone-3.8.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="selenium-java-3.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="selenium-server-standalone-3.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="testng-6.14" level="project" />
+    <orderEntry type="library" name="selenium-server-standalone-3.4.0" level="project" />
+    <orderEntry type="library" name="testng-6.14" level="project" />
   </component>
 </module>
