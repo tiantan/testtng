@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 
 public class LoginTest {
     public WebDriver driver;
+    loginpage t=new loginpage(driver);
+
     @BeforeSuite
     public void setup(){
         //用于第一次启动浏览器
@@ -22,9 +24,10 @@ public class LoginTest {
         driver.get("http://localhost/intest/login.html?r=0.8770877012611458");
         driver.manage().window().maximize();
     }
+
     @Test
     public void LoginTest() throws InterruptedException {
-        loginpage t=new loginpage(driver);
+
         t.Login("hr","123456");
        // Thread.sleep(10000);
         new wait(driver).waitToDisplayed(By.id("top-nav-ess-name"));

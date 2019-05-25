@@ -1,20 +1,21 @@
 package testtestng;
 
-import java.util.concurrent.ExecutionException;
-
-import org.apache.http.protocol.ExecutionContext;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeSuite;
 
 public class Page {
-	protected  WebDriver driver;
+	public   WebDriver driver;
 	
 	public Page(WebDriver driver) {
 		this.driver = driver;
 	}
+
+
 
 	public  boolean waitToDisplayed(final By key){
 		boolean waitDisplayed=new WebDriverWait(driver, 10).until(new ExpectedCondition<Boolean>(){
@@ -34,4 +35,6 @@ public class Page {
 		return element;
 		
 	}
+
+
 }
