@@ -11,7 +11,7 @@ public class loginpage extends Page{
 	public By userName=By.id("userName");
 	public By password=By.id("password");
 	public By btnLogin=By.id("btnLogin");
-	
+
 	public void userName(String username){
 		this.geElement(userName).sendKeys(username);
 	}

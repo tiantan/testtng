@@ -1,6 +1,6 @@
 package testtestng;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 //测试类
 public class test1 {
 	@Test
