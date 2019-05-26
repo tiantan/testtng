@@ -7,7 +7,7 @@ public class loginpage extends Page{
 
 	public loginpage(WebDriver driver) {
 		super(driver);
-	}	
+	}
 	public By userName=By.id("userName");
 	public By password=By.id("password");
 	public By btnLogin=By.id("btnLogin");
@@ -21,6 +21,7 @@ public class loginpage extends Page{
 	}
 	public void btnLogin() {
 		this.geElement(btnLogin).click();
+
 	}
 
 	public void Login(String username,String value){
