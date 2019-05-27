@@ -13,11 +13,11 @@ public class opendriver {
         //用于第一次启动浏览器
         //66
         //System.setProperty("webdriver.gecko.driver",".\\libs\\geckodriver.exe");
-        System.setProperty("webdriver.chrome.driver",".\\libs\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver",".\\libs\\chromedriver69.exe");
         //WebDriver driver=new FirefoxDriver();
         driver=new ChromeDriver();
         // driver.get("http://localhost:8005/");
-        driver.get("http://localhost/intest/login.html?r=0.8770877012611458");
+        driver.get("http://cloud.hrsoft.com.cn/intest/login.html?r=0.8770877012611458");
         driver.manage().window().maximize();
     }
     @AfterClass
