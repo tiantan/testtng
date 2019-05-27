@@ -17,8 +17,9 @@ public class LoginTest {
         t.Login("hr","1");
         Thread.sleep(10000);
         String zhuom=driver.findElement( By.id("top-nav-ess-name")).getText();
-        System.out.println(zhuom);
-        zhuom.equals("桌面");
+        System.out.println("---------"+zhuom);
+        assert zhuom.equals("桌面");
+
         driver.close();
 
     }
