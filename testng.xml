@@ -3,7 +3,7 @@
 <suite name="test111" parallel="true">
   <test name="test111" >
     <classes>
-      <class name="testtestng.LoginTest"/>
+      <class name="Test.LoginTest"/>
     </classes>
   </test> <!-- Test -->
     <listeners>

@@ -1,10 +1,13 @@
-package testtestng;
+package Test;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import testtestng.Assertion;
+import testtestng.loginpage;
+import testtestng.opendriver;
 
-public class LoginTest extends opendriver{
+public class LoginTest extends opendriver {
     // public WebDriver driver;
     //每一个测试用例都是继承这个,就可以不用重复写这个方法
 
