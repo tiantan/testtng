@@ -16,6 +16,7 @@ public class log {
 	}
 	
 	public static void testlogoutput(Object message){
+
 		Reporter.log(message.toString());
 	}
 	@Test
